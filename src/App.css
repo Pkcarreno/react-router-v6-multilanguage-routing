@@ -1,3 +1,18 @@
-.App {
-  text-align: center;
+* {
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.content {
+  margin: 24px;
+}
+
+.title {
+  margin-bottom: 12px;
+}
+
+.link {
+  text-decoration: underline;
+  color: black;
 }

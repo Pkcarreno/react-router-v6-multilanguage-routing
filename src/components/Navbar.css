@@ -1,0 +1,51 @@
+.Nav {
+  width: 100%;
+  height: 80px;
+  background-color: rgb(40, 106, 168);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.NavigationButtons {
+  height: 100%;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.NavigationButtons > a {
+  text-decoration: none;
+  margin: 16px;
+  color: white;
+}
+.NavigationButtons > a:hover {
+  color: rgb(209, 209, 209);
+}
+.NavigationButtons > a.active {
+  text-decoration: underline;
+}
+
+.LanguageSwitcher > ul {
+  list-style-type: none;
+}
+
+.LanguageSwitcher > ul > li {
+  display: inline;
+  text-decoration: none;
+  font-size: 1rem;
+  margin: 12px;
+}
+.LanguageSwitcher > ul > li > a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: whitesmoke;
+}
+
+.LanguageSwitcher > ul > li > a:hover {
+  color: rgb(209, 209, 209);
+}
+
+.LanguageSwitcher > ul > li > a.active {
+  text-decoration: underline;
+}
